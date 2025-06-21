@@ -1,0 +1,302 @@
+{
+  "timestamp": "2025-06-21T22:38:48.546538",
+  "ticket_id": "TECH-001",
+  "subject": "API timeout on large payloads",
+  "customer_tier": "enterprise",
+  "message": "Our data ingestion API fails when payload exceeds 5MB. It returns 504 Gateway Timeout intermittently",
+  "technical_analysis": {
+    "complexity_score": 7,
+    "category": "API Management",
+    "requires_specialist": true,
+    "estimated_resolution_hours": 4,
+    "keywords": [
+      "API",
+      "timeout",
+      "payload",
+      "504 Gateway Timeout",
+      "data ingestion",
+      "intermittent errors"
+    ]
+  },
+  "business_analysis": {
+    "customer_value_score": 9,
+    "churn_risk": 4,
+    "revenue_impact": "High",
+    "relationship_health": "Healthy",
+    "escalation_recommended": false
+  },
+  "final_routing": {
+    "department": "technical",
+    "priority": "high",
+    "assigned_team": "enterprise_support",
+    "sla_hours": 4,
+    "special_instructions": "Focus on retention strategies and minimizing churn risk.",
+    "confidence_score": 0.9
+  },
+  "confidence": 0.9,
+  "conflict_occurred": false
+}
+-----------------------------
+{
+  "timestamp": "2025-06-21T23:07:11.901732",
+  "ticket_id": "TECH-001",
+  "subject": "API returning 500 errors intermittently",
+  "customer_tier": "enterprise",
+  "message": "Our production system has been failing with 500 errors for the past 2 hours. This is affecting customer transactions.",
+  "technical_analysis": {
+    "complexity_score": 7,
+    "category": "API Management",
+    "requires_specialist": true,
+    "estimated_resolution_hours": 4,
+    "keywords": [
+      "API",
+      "500 errors",
+      "production system",
+      "customer transactions",
+      "intermittent failures"
+    ]
+  },
+  "business_analysis": {
+    "customer_value_score": 9,
+    "churn_risk": 6,
+    "revenue_impact": "High - $25000 monthly revenue at stake",
+    "relationship_health": "Moderate - some recurring issues",
+    "escalation_recommended": true
+  },
+  "final_routing": {
+    "department": "escalation",
+    "priority": "critical",
+    "assigned_team": "enterprise_support",
+    "sla_hours": 1,
+    "special_instructions": "Ensure technical team is on standby for immediate support if required.",
+    "confidence_score": 0.9
+  },
+  "confidence": 0.9,
+  "conflict_occurred": true
+}
+-----------------------------
+{
+  "timestamp": "2025-06-21T23:57:31.548956",
+  "ticket_id": "TECH-001",
+  "subject": "API returning 500 errors intermittently",
+  "customer_tier": "enterprise",
+  "message": "Our production system has been failing with 500 errors for the past 2 hours. This is affecting customer transactions.",
+  "technical_analysis": {
+    "complexity_score": 7,
+    "category": "API Management",
+    "requires_specialist": true,
+    "estimated_resolution_hours": 4,
+    "keywords": [
+      "API",
+      "500 error",
+      "intermittent failures",
+      "production system",
+      "customer transactions"
+    ]
+  },
+  "business_analysis": {
+    "customer_value_score": 9,
+    "churn_risk": 7,
+    "revenue_impact": "High",
+    "relationship_health": "Moderate",
+    "escalation_recommended": true
+  },
+  "final_routing": {
+    "department": "escalation",
+    "priority": "high",
+    "assigned_team": "escalation team",
+    "sla_hours": 1,
+    "special_instructions": "Coordinate with API Management Specialists to address the technical issue promptly while focusing on customer retention efforts.",
+    "confidence_score": 0.85
+  },
+  "confidence": 0.85,
+  "conflict_occurred": true
+}
+-----------------------------
+{
+  "timestamp": "2025-06-22T00:03:38.553919",
+  "ticket_id": "TECH-001",
+  "subject": "API returning 500 errors intermittently",
+  "customer_tier": "enterprise",
+  "message": "Our production system has been failing with 500 errors for the past 2 hours. This is affecting customer transactions.",
+  "technical_analysis": {
+    "complexity_score": 7,
+    "category": "API/Backend",
+    "requires_specialist": true,
+    "estimated_resolution_hours": 4,
+    "keywords": [
+      "API",
+      "500 errors",
+      "intermittent failure",
+      "production system",
+      "customer transactions"
+    ]
+  },
+  "business_analysis": {
+    "customer_value_score": 9,
+    "churn_risk": 7,
+    "revenue_impact": "High",
+    "relationship_health": "Moderately Healthy",
+    "escalation_recommended": true
+  },
+  "final_routing": {
+    "department": "escalation",
+    "priority": "critical",
+    "assigned_team": "enterprise_specialists",
+    "sla_hours": 1,
+    "special_instructions": "Urgent escalation due to 500 errors impacting enterprise API; focus on resolving to mitigate churn risk.",
+    "confidence_score": 0.9
+  },
+  "confidence": 0.9,
+  "conflict_occurred": true
+}
+-----------------------------
+{
+  "timestamp": "2025-06-22T00:15:02.295056",
+  "ticket_id": "TECH-001",
+  "subject": "API returning 500 errors intermittently",
+  "customer_tier": "enterprise",
+  "message": "Our production system has been failing with 500 errors for the past 2 hours. This is affecting customer transactions.",
+  "technical_analysis": {
+    "complexity_score": 7,
+    "category": "API/Backend Issues",
+    "requires_specialist": true,
+    "estimated_resolution_hours": 4,
+    "keywords": [
+      "500 error",
+      "API",
+      "intermittent failure",
+      "production system",
+      "customer transactions"
+    ]
+  },
+  "business_analysis": {
+    "customer_value_score": 9,
+    "churn_risk": 7,
+    "revenue_impact": "High",
+    "relationship_health": "Moderate",
+    "escalation_recommended": true
+  },
+  "final_routing": {
+    "department": "escalation",
+    "priority": "critical",
+    "assigned_team": "escalation_team",
+    "sla_hours": 1,
+    "special_instructions": "Review technical issues reported and coordinate with technical team for resolution while keeping the customer informed.",
+    "confidence_score": 0.85
+  },
+  "confidence": 0.85,
+  "conflict_occurred": true
+}
+-----------------------------
+{
+  "timestamp": "2025-06-22T00:20:05.613348",
+  "ticket_id": "Gen-003",
+  "subject": "Where can I find the API docs?",
+  "customer_tier": "free",
+  "message": "I'm trying to integrate your product with our system. Do you have an API documents?",
+  "technical_analysis": {
+    "complexity_score": 2,
+    "category": "Documentation Inquiry",
+    "requires_specialist": false,
+    "estimated_resolution_hours": 1,
+    "keywords": [
+      "API",
+      "documentation",
+      "integration"
+    ]
+  },
+  "business_analysis": {
+    "customer_value_score": 3,
+    "churn_risk": 7,
+    "revenue_impact": "$200",
+    "relationship_health": "Neutral",
+    "escalation_recommended": false
+  },
+  "final_routing": {
+    "department": "general",
+    "priority": "medium",
+    "assigned_team": "Documentation Support",
+    "sla_hours": 24,
+    "special_instructions": "Address the API documentation inquiry with a focus on potential retention strategies.",
+    "confidence_score": 0.8
+  },
+  "confidence": 0.8,
+  "conflict_occurred": true
+}
+-----------------------------
+{
+  "timestamp": "2025-06-22T00:24:44.556815",
+  "ticket_id": "TECH-001",
+  "subject": "API returning 500 errors intermittently",
+  "customer_tier": "enterprise",
+  "message": "Our production system has been failing with 500 errors for the past 2 hours. This is affecting customer transactions.",
+  "technical_analysis": {
+    "complexity_score": 7,
+    "category": "API/Backend Services",
+    "requires_specialist": true,
+    "estimated_resolution_hours": 3,
+    "keywords": [
+      "API",
+      "500 errors",
+      "production system",
+      "customer transactions",
+      "intermittent failures"
+    ]
+  },
+  "business_analysis": {
+    "customer_value_score": 9,
+    "churn_risk": 6,
+    "revenue_impact": "High",
+    "relationship_health": "Moderate",
+    "escalation_recommended": true
+  },
+  "final_routing": {
+    "department": "escalation",
+    "priority": "high",
+    "assigned_team": "escalation team",
+    "sla_hours": 1,
+    "special_instructions": "Coordinate with API_Specialist_Team for technical resolution.",
+    "confidence_score": 0.9
+  },
+  "confidence": 0.9,
+  "conflict_occurred": true
+}
+-----------------------------
+{
+  "timestamp": "2025-06-22T00:29:23.910473",
+  "ticket_id": "Gen-005",
+  "subject": "where can I find the API docs",
+  "customer_tier": "premium",
+  "message": "I'm trying to integrate your product with our system. Do you have an api documents?",
+  "technical_analysis": {
+    "complexity_score": 2,
+    "category": "Documentation Inquiry",
+    "requires_specialist": false,
+    "estimated_resolution_hours": 0,
+    "keywords": [
+      "API",
+      "documentation",
+      "integration",
+      "product"
+    ]
+  },
+  "business_analysis": {
+    "customer_value_score": 9,
+    "churn_risk": 3,
+    "revenue_impact": "medium",
+    "relationship_health": "good",
+    "escalation_recommended": false
+  },
+  "final_routing": {
+    "department": "general",
+    "priority": "medium",
+    "assigned_team": "customer_support",
+    "sla_hours": 24,
+    "special_instructions": "Ensure the customer receives prompt and informative support regarding the API documentation, while also addressing any concerns they may have.",
+    "confidence_score": 0.8
+  },
+  "confidence": 0.8,
+  "conflict_occurred": true
+}
+-----------------------------
